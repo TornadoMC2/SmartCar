@@ -59,8 +59,8 @@ HEARTBEAT_INTERVAL = 1.0
 
 # --- Teachable Machine (TM) Model Config ---
 # <<< CHANGED FOR KERAS .H5 >>>
-KERAS_MODEL_PATH = "keras_model.h5" # <<< CHANGE TO YOUR .h5 MODEL FILE
-LABELS_PATH = "labels.txt"          # <<< CHANGE TO YOUR LABELS FILE
+KERAS_MODEL_PATH = "keras_model.h5"  # <<< CHANGE TO YOUR .h5 MODEL FILE
+LABELS_PATH = "labels.txt"  # <<< CHANGE TO YOUR LABELS FILE
 MODEL_INPUT_HEIGHT = 224            # <<< CHANGE based on your TM/Keras model input
 MODEL_INPUT_WIDTH = 224             # <<< CHANGE based on your TM/Keras model input
 # Normalization params likely same as TM export, but verify if model expects something else
